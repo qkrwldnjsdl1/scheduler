@@ -1,20 +1,30 @@
 # Interview Scheduler
+
+## Dependencies
+- axios
+- normalize.css
+- react
+- react-dom
+- react-scripts
+
+
 ## Getting Started
 
-Fork this repository, then clone your fork of this repository.
-Install dependencies using the npm install command.
-Start the web server using the npm run local command. The app will be served at http://localhost:3000.
-Go to http://localhost:3000 in your browser.
+- Fork this repository, then clone your fork of this repository.
+- Install dependencies using the npm install command.
+- Start the web server using the npm run local command. The app will be served at http://localhost:3000.
+- Go to http://localhost:3000 in your browser.
 
 
 
-## Functions of the Tweeter are:
+## Functions of the Scheduler are:
 
-You can post tweets to the web page and see the previously posted tweets
-Able to hide the tweet form
-Alarms the user when the tweets do not meet the requirement
-Responsive design features available
-
+- Can create appointments on a specific day and time of a week
+- Can choose the interviewers when creating the appointment
+- Can edit the existing appointment
+- Can delete the existing appointment
+- Show errors upon errors
+- Show how many spots are available in each day
 
 
 ## Final Product
