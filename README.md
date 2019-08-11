@@ -1,23 +1,42 @@
 # Interview Scheduler
 
-## Setup
+## Dependencies
+- axios
+- normalize.css
+- react
+- react-dom
+- react-scripts
 
-Install dependencies with `npm install`.
 
-## Running Webpack Development Server
+## Getting Started
 
-```sh
-npm start
-```
+- Fork this repository, then clone your fork of this repository.
+- Install dependencies using the npm install command.
+- Start the web server using the npm run local command. The app will be served at http://localhost:3000.
+- Go to http://localhost:3000 in your browser.
 
-## Running Jest Test Framework
 
-```sh
-npm test
-```
 
-## Running Storybook Visual Testbed
+## Functions of the Scheduler are:
 
-```sh
-npm run storybook
-```
+- Can create appointments on a specific day and time of a week
+- Can choose the interviewers when creating the appointment
+- Can edit the existing appointment
+- Can delete the existing appointment
+- Show errors upon errors
+- Show how many spots are available in each day
+
+
+## Final Product
+This is initial state of the form in the scheduler. When you click the (+) button it renders the form componenets
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Empty.png)
+In here you can enter student name and select interviewer to create or edit new appointment or cancel by clicking the cancel button
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Form.png)
+Once you saved the appointment it will render the infomation about the appointment.
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Show.png)
+When you click the delete button, it will ask for confirmation
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Confirm.png)
+And when you confirm for cancelation, it will delete the appointment and renders the empty component
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Deleting.png)
+If there are any errors on saving or deleting the appointments, it will show error.
+!["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Error.png)
