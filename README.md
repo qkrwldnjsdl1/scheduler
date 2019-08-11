@@ -7,12 +7,16 @@ Dependencies
     -react-dom
     -react-scripts
 
+
+
 # Getting Started
 
 Fork this repository, then clone your fork of this repository.
 Install dependencies using the npm install command.
 Start the web server using the npm run local command. The app will be served at http://localhost:3000.
 Go to http://localhost:3000 in your browser.
+
+
 
 # Functions of the Tweeter are:
 
@@ -21,10 +25,12 @@ Able to hide the tweet form
 Alarms the user when the tweets do not meet the requirement
 Responsive design features available
 
+
+
 # Final Product
 This is initial state of the form in the scheduler. When you click the (+) button it renders the form componenets
 !["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Empty.png)
-In here you can enter student name and select interviewer to create new appointment or cancel by clicking the cancel button
+In here you can enter student name and select interviewer to create or edit new appointment or cancel by clicking the cancel button
 !["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Form.png)
 Once you saved the appointment it will render the infomation about the appointment.
 !["screenshot description"](https://github.com/qkrwldnjsdl1/scheduler/blob/master/image/Show.png)
