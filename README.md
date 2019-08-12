@@ -11,7 +11,10 @@
 ## Getting Started
 
 - Fork this repository, then clone your fork of this repository.
+- Also visit https://github.com/lighthouse-labs/scheduler-api for the database and fork the repository, then clone into the local machine
+- You will need to run both repository on your terminal
 - Install dependencies using the npm install command.
+- Start the API server using the npm start local command.
 - Start the web server using the npm start local command. The app will be served at http://localhost:3000.
 - Go to http://localhost:3000 in your browser.
 
