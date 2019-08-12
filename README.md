@@ -1,6 +1,7 @@
 # Interview Scheduler
 
 ## Dependencies
+
 - axios
 - normalize.css
 - react
@@ -11,7 +12,7 @@
 ## Getting Started
 
 - Fork this repository, then clone your fork of this repository.
-- Also visit https://github.com/lighthouse-labs/scheduler-api for the database and fork the repository, then clone into the local machine
+- Also visit https://github.com/lighthouse-labs/scheduler-api for the database and fork the repository, then clone into the local machine. Follow the instructions on ReadMe for scheduler-api.
 - You will need to run both repository on your terminal
 - Install dependencies using the npm install command.
 - Start the API server using the npm start local command.
