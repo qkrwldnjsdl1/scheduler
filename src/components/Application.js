@@ -1,15 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "components/Application.scss";
 import DayList from "components/DayList.js";
 import Appointment from "components/Appointment";
 import { getAppointmentsForDay, getInterview, getInterviewersForDayV2 } from "helpers/selectors";
-import axios from "axios";
 import useApplicationData from "hooks/useApplicationData"
 
 
 export default function Application(props) {
   const {
-    setState,
     state,
     setDay,
     bookInterview,
@@ -18,6 +16,7 @@ export default function Application(props) {
   const appointments = getAppointmentsForDay(state, state.day);
   const schedule = appointments.map((appointment) => {
     const interview = getInterview(state, appointment.interview);
+
     return (
       <Appointment
         key={appointment.id}

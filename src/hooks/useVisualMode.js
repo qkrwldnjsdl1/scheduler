@@ -17,5 +17,6 @@ export default function useVisualMode(addedMode) {
     })
     return history.slice(-2)[0]
   });
+  
   return { mode, transition, back }
 }
