@@ -1,7 +1,5 @@
 import React from "react";
-
 import "components/Appointment/styles.scss";
-
 import Header from "components/Appointment/header";
 import Show from "components/Appointment/show";
 import Empty from "components/Appointment/empty";
@@ -10,6 +8,11 @@ import Status from "components/Appointment/status";
 import Error from "components/Appointment/error";
 import Confirm from "components/Appointment/confirm";
 import useVisualMode from "hooks/useVisualMode";
+import axios from "axios";
+
+if (process.env.REACT_APP_API_BASE_URL) {
+  axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
+}
 
 
 const EMPTY = "EMPTY";
